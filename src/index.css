@@ -1,0 +1,132 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+ 
+@layer base {
+
+  #root {
+    @apply p-0 m-0;
+  }
+
+  :root {
+    --background: 201 19% 17%; /* #232E34 dark slate */
+    --foreground: 0 100% 100%; /* #ffffff white */
+
+    --card: 0 0% 12.94%; /* #212121 dark gray */
+    --card-foreground: 0 100% 100%; /* #ffffff white */
+ 
+    --popover: 0 0% 12.94%; /* #212121 dark gray */
+    --popover-foreground: 39.23 20.47% 50.2%; /* #9A8866 tan */
+ 
+    --primary: 48 100% 58.8%; /* #FFD42D gold */
+    --primary-foreground: 201 19% 17%; /* #232E34 dark slate */
+ 
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+ 
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+ 
+    --accent: 39.23 20.47% 50.2%; /* #9A8866 tan */
+    --accent-foreground: 222.2 47.4% 11.2%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 0 0% 30%;
+    --input: 39.23 20.47% 50.2%; /* #9A8866 tan */
+    --ring: 48 100% 58.8%; /* #FFD42D gold */
+ 
+    --radius: 0.5rem;
+  }
+ 
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+ 
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+ 
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+ 
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+ 
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+ 
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+ 
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+ 
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+
+  .bg-img {
+    background-image: url('assets/EFT-Background.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-work {
+    background-image: url('assets/Thinking-Runner.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-bored {
+    background-image: url('assets/Bored-Runner.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-server {
+    background-image: url('assets/ServerRunner.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-gear {
+    background-image: url('assets/GearRunner.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-planning {
+    background-image: url('assets/PlanningRunner.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-clapped {
+    background-image: url('assets/ClappedRunner.png');
+    background-repeat: no-repeat;
+  }
+
+  .bg-runner {
+    background-image: url('assets/RaidRunner.png');
+    background-repeat: no-repeat;
+  }
+
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    font-family: 'Share Tech Mono', monospace, sans-serif;
+    @apply bg-background text-foreground;
+  }
+  h1 {
+    @apply text-4xl font-bold;
+  }
+  h2 {
+    @apply text-3xl font-bold;
+  }
+  h3 {
+    @apply text-2xl font-bold;
+  }
+}
