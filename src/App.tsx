@@ -49,8 +49,7 @@ function App() {
           <h2 className='scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight first:mt-0'>
             What is it?
           </h2>
-          <p className=' text-2xl'>EFT Raid-Runner will be a way to experience those 
-            common Tarkov encounters with a choose-your-own-adventure style raid system!
+          <p className='text-2xl py-4'>EFT Raid-Runner will be a way to simulate Tarkov encounters with game data from TarkovDev and TarkovTracker in a choose-your-own-adventure style raid system!
           </p>
         </div>
 
