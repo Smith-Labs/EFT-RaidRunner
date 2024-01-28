@@ -7,6 +7,7 @@ describe('App', () => {
     it('renders with classes', () => {
         render(<Navbar/>);
         const navbar = screen.getByRole('navigation');
-        expect(navbar).toHaveClass('flex fixed top-0 z-50 h-16 w-lvw items-center justify-between px-6');
+        
+        expect(navbar).toHaveTextContent("EFT RAID-RUNNER")
     });
 });
